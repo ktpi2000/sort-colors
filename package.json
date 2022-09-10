@@ -6,7 +6,9 @@
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:ktpi2000/sort-colors.git",
+  "repository": "https://github.com/ktpi2000/sort-colors",
+  "homepage": "https://github.com/ktpi2000/sort-colors#readme",
+  "bugs": "https://github.com/ktpi2000/sort-colors/issues",
   "author": "ktpi2000",
   "license": "MIT",
   "keywords": [
