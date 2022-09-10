@@ -25,7 +25,7 @@ export const sortHex = (hex: string[]) => {
   const map = new Map();
 
   a.forEach((v, index) => {
-    map.set(index, { show_index: Number(v[0]), hex: v[1].hex });
+    map.set(index, { list_index: Number(v[0]), hex: v[1].hex });
   });
   return map;
 };
