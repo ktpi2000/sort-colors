@@ -1,7 +1,11 @@
 {
-  "name": "sort-colors",
+  "name": "@ktpi2000/sort-colors",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "git@github.com:ktpi2000/sort-colors.git",
   "author": "ktpi2000",
   "license": "MIT",
@@ -16,6 +20,7 @@
     "clean": "rimraf dist",
     "start": "ts-node -r tsconfig-paths/register ./src/index.ts",
     "build": "yarn clean && rollup --config",
+    "prepublishOnly": "yarn build",
     "test": "jest"
   },
   "devDependencies": {
