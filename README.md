@@ -5,11 +5,11 @@ Sort an array containing hex color codes in order of saturation. This is useful 
 ## install
 
 ```
-npm install
+npm install @ktpi2000/sort-colors
 ```
 or
 ```
-yarn
+yarn add @ktpi2000/sort-colors
 ```
 
 ## usage
